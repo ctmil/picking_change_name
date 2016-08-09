@@ -4,7 +4,7 @@
     'version': '0.1',
     'depends': ['stock'],
     'data': [
-	#'wizard/wizard_view.xml',
+	'wizard/wizard_view.xml',
 	#'account_view.xml',
     ],
     'demo': [
