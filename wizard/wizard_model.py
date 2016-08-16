@@ -18,3 +18,7 @@ class picking_change_name(models.TransientModel):
 
 	name = fields.Char(string='Nuevo nombre')
 
+	@api.multi
+	def confirm_name(self):
+		import pdb;pdb.set_trace()
+		return None

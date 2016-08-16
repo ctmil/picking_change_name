@@ -9,7 +9,7 @@
 					<group>
 						<field name="name" />
 					</group>
-					<!-- button name="confirm_line" type="object" string="OK" / -->  
+					<button name="confirm_name" type="object" string="Renombrar" />
 				</form>
 			</field>
 		</record>
