@@ -7,7 +7,7 @@ class account_invoice(models.Model):
 	_inherit = "stock.picking"
 
 	@api.multi
-	def picking_change_name(self):
+	def change_name_action(self):
                 return {'type': 'ir.actions.act_window',
                         'name': 'Cambiar numero de remito',
                         'res_model': 'picking.change.name',

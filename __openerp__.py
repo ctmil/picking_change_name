@@ -5,7 +5,7 @@
     'depends': ['stock'],
     'data': [
 	'wizard/wizard_view.xml',
-	#'account_view.xml',
+	'stock_view.xml',
     ],
     'demo': [
     ],
