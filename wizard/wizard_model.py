@@ -20,7 +20,6 @@ class picking_change_name(models.TransientModel):
 
 	@api.multi
 	def confirm_name(self):
-		import pdb;pdb.set_trace()
 		active_id = self.env.context['active_id']
 		picking = self.env['stock.picking'].browse(active_id)
 		if picking:
